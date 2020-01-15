@@ -28,7 +28,7 @@ Here an empty 'TODO-list' to monitor your progress.
 - [ ] 11 Advanced Maximum Entropy Models
 - [ ] 12 POS Tagging
 - [ ] 13 Parsing Introduction
-- [ ] 14 'Instructor Chat' 
+- [ ] 14 'Instructor Chat'
 - [ ] 15 Probabilistic Parsing
 - [ ] 16 Lexicalized Parsing
 - [ ] 17 Dependency Parsing
@@ -51,8 +51,43 @@ The very first lecture motivates the subject, describes the state of the art and
 
 ### Quiz:
 
-- [ ] Name a few examples where your everyday life is made easier by 'Language Technology'.
-- [ ] Do you know what field inside of NLP is represented in your everyday-life-case(s)? (If not, try to find out).
-- [ ] Why do you think the hard applications/problems are hard? (Some of the hard NLP problems: Paraphrase, Summarization, Dialog)
-- [ ] What is the 'general approach' in NLP?
+- [X] Name a few examples where your everyday life is made easier by 'Language Technology'.
+- [X] Do you know what field inside of NLP is represented in your everyday-life-case(s)? (If not, try to find out).
+- [X] Why do you think the hard applications/problems are hard? (Some of the hard NLP problems: Paraphrase, Summarization, Dialog)
+- [X] What is the 'general approach' in NLP?
+
+### Answers:
+
+#### Name a few examples where your everyday life is made easier by 'Language Technology'.
+
+- Most search engines try to anticipate what I'm going to type.
+- My phone keyboard does too, actually.
+- At work I actually use NER (Named Entity Recognition). 🙉🙊🙈
+- All the CORP-HERE-translate services.
+
+#### Do you know what field inside of NLP is represented in your everyday-life-case(s)? (If not, try to find out).
+
+- Most search engines try to anticipate what I'm going to type.
+
+Probably this is some kind of frequency, which is probably even localized? Probably it's even personalized. 😱 Markov Chains come to my head somehow, but I forgot how they work in detail - something conditional probability-ish.
+
+- My phone keyboard does too, actually.
+
+Some thing as above, I guess.
+
+- At work I actually use NER (Named Entity Recognition). 🙉🙊🙈
+
+Here I understand this a bit. So there is some kind of statistical language model which tags the text after parsing it. I'm using these tags (entity labels) to find the interesting information. The trick here is to train the models well with an interesting question in mind.
+
+- All the CORP-HERE-translate services.
+
+Machine Translation. This was covered in the lecture in the yellow fields as far as I remember.
+
+#### Why do you think the hard applications/problems are hard? (Some of the hard NLP problems: Paraphrase, Summarization, Dialog)
+
+So, I remember ambiguity being a big problem. Sometimes it is even hard for humans. Like for instance to understand sarcasm/irony. Then there were a bunch of other problems which relate to having knowledge about the world.
+
+#### What is the 'general approach' in NLP?
+
+Create a probabilistic language model and apply it to the problem. ☺️
 
