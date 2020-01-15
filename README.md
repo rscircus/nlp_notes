@@ -15,7 +15,7 @@ Not only for hearing disabled people (like me), but also for machines. Recently,
 
 Here an empty 'TODO-list' to monitor your progress.
 
-- [ ] 1 Introduction
+- [X] 1 Introduction
 - [ ] 2 Basic Text Processing
 - [ ] 3 Minimum Edit Distance
 - [ ] 4 Language Modeling
